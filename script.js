@@ -35,6 +35,8 @@ document.addEventListener('keydown',function(e){
 	if(e.keycode == 13 || e.which==13)
 	{
 
+        score_1=0;
+	    score_2=0;
 		startball();
 	}
 
